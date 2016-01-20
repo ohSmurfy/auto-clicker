@@ -1,7 +1,7 @@
 package clicker
 
 object PrayerFlickMouse extends App
-  with FakeMouse
+  with FakeMovement
   with Delay {
   while (true) {
     leftMouseClick()
@@ -12,7 +12,7 @@ object PrayerFlickMouse extends App
 }
 
 object TeleportMouse extends App
-  with FakeMouse
+  with FakeMovement
   with Delay {
   while (true) {
     leftMouseClick()
